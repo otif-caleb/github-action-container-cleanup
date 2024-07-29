@@ -10,4 +10,6 @@ else
   docker system prune --volumes --force
 fi
 
+docker system prune --all
+
 rm -f /tmp/post-containres-list.txt /tmp/pre-containers-list.txt
